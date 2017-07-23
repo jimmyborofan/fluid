@@ -1,5 +1,4 @@
 <div id="dialogCreate" title="Create A New Task">
-
     <form>
         <fieldset>
             <label for="create_name">Name</label>
@@ -43,7 +42,6 @@
                 ?>
             </select>
             <br />
-            
             <!-- Allow form submission with keyboard without duplicating the dialog button -->
             <input type="submit" tabindex="-1" style="position:absolute; top:-1000px">
         </fieldset>

@@ -1,5 +1,4 @@
 <div id="dialogEdit" title="Edit Task">
-
     <form>
         <fieldset>
             <label for="name">Name</label>
@@ -14,10 +13,10 @@
             <select name="assign" id="assign">
                 <option value="x">Select...</option>
                 <?php
-                foreach ($form['users'] as $user) {
-                    echo "<option value=\"" . $user['userId']."\">"
-                            . "".$user['username'] . "</option>";
-                }
+                    foreach ($form['users'] as $user) {
+                        echo "<option value=\"" . $user['userId'] . "\">"
+                        . "" . $user['username'] . "</option>";
+                    }
                 ?>
             </select>
             <br />
@@ -25,10 +24,10 @@
             <select name="status" id="status">
                 <option value="x">Select...</option>
                 <?php
-                foreach ($form['status'] as $status) {
-                    echo "<option value=\"" . $status['statusId'] . "\">"
-                            . "" . $status['name'] . "</option>";
-                }
+                    foreach ($form['status'] as $status) {
+                        echo "<option value=\"" . $status['statusId'] . "\">"
+                        . "" . $status['name'] . "</option>";
+                    }
                 ?>
             </select>
             <br />
@@ -36,10 +35,10 @@
             <select name="label" id="label">
                 <option value="x">Select...</option>
                 <?php
-                foreach ($form['labels'] as $lbl) {
-                    echo "<option value=\"" . $lbl['labelId']
-                            ."\">" . $lbl['name'] . "</option>";
-                }
+                    foreach ($form['labels'] as $lbl) {
+                        echo "<option value=\"" . $lbl['labelId']
+                        . "\">" . $lbl['name'] . "</option>";
+                    }
                 ?>
             </select>
             <br />
