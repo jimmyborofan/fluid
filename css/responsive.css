@@ -1,0 +1,141 @@
+/* Responsive CSS changes for gocode.cademy
+        Author : James Crawford;
+        email : james.ra.crawford@gmail.com */
+/* 1371px+ Very Large Desktop*/
+
+@media (min-width : 1371px) {
+    
+}
+
+/* 1130 - 1370px */
+@media (max-width : 1371px) {
+    
+} 
+/* 1025 - 11250px */
+@media ( max-width : 1120px){
+    
+}
+/*961 - 1024px */
+@media (max-width : 1024px) {
+    
+}
+/* 845 - 961px */
+@media (max-width : 960px) {
+    
+}
+/*768 -845px */
+@media (max-width : 844px) {
+.thumbnail-container {
+
+    float: left;
+    padding: 10px;
+}
+    .whoisitfor {
+        padding-bottom : 20px;
+    }
+   #toggle {
+        -webkit-border-top-left-radius : 15px;
+        -moz-border-radius-topleft : 15px;
+        border-top-left-radius : 15px;
+    }
+
+    .nav>li>a {
+        position : relative;
+        display : block;
+        padding : 10px 11px;
+    }
+    .study {
+        min-height : 120px;
+        margin-bottom : 10px;
+        border-bottom : thin solid   #00b3b2 ;
+    }
+    .time {
+        min-height : 120px;
+        margin-bottom : 10px;
+        border-bottom :  thin solid   #00b3b2 ;
+    }
+    .testimonial-text {
+        text-align : justify;
+        height : 180px;
+    }
+    .text-border {
+        height : 30px;
+        border : thin solid #aaaaaa;
+        width : 95%;
+        margin : 0 auto;
+        margin-top : -15px;
+        padding : 20px;
+    }
+    .time {
+    
+    }
+    .study {
+        margin-bottom : 20px;
+    }
+    #gallery,
+    #gallery-link {
+        display : none;
+    }
+    #hsForm_35b06894-97b7-44d5-af7f-5dfd63faaa0b > div > div,
+    #hsForm_35b06894-97b7-44d5-af7f-5dfd63faaa0b > div > label {
+        text-align : center;
+    }
+    #contact-us > div > div.row > div > div > p,
+    .widget-title {
+        text-align : center;
+        font-weight : bold;
+    }
+    #twitter-widget-0 {
+        position : relative;
+        visibility : visible;
+        /* display : inline-block; */
+        /* width : 250px; */
+
+        height : 300px;
+        padding : 0px;
+        border : none;
+        /* max-width : 45%; */
+        /* min-width : 180px; */
+        /* margin-top : 0px; */
+        /* margin-bottom : 0px; */
+
+        min-height : 200px;
+        margin : 0 auto;
+        left : 30%;
+    }
+    .sm-link-border {
+        width : 90px;
+        height : 90px;
+        border : 2px solid rgba(63, 200, 232, 1.00);
+        border-radius : 50%;
+        margin : 5px;
+        float : left;
+        margin : 0 auto;
+        position : relative;
+        left : 30%;
+    }
+    #contact-us > div > div.row > div > div > div > a > i {
+        position : relative;
+        top : 20px;
+        left : 23px;
+    }
+}
+
+/*520 - 767px */
+@media(max-width : 767px) {
+    
+}
+/*413 -519px */
+@media( max-width : 519px) {
+    
+}
+/*361 -414px */
+@media (max-width : 414px) {
+    
+}
+/* les than 360px */
+@media (max-width : 360px) {
+    
+}
+@media (max-width : 325px) {
+}
