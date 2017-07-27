@@ -194,7 +194,11 @@ function createTask() {
     window.location.reload();
 }
 
-
+/**
+ * insert task data into modal for editing
+ * @param {\int} taskID
+ * @returns {VOID}
+ */
 function getTaskData(taskID) {
     $.ajax({
         url: "/index.php?/ajax/getJSONTask ",
@@ -205,14 +209,8 @@ function getTaskData(taskID) {
         }
     }).done(function (data) {
         taskData = data[0];
-        console.log(taskData.taskname)
         $('#taskname').val(taskData.taskname);
         $('#details').val(taskData.details);
-        console.log("--------------------");
-        console.log(taskData.statusId);
-        console.log(taskData.labelId);
-        console.log(taskData.userId);
-        console.log("--------------------");
         $('#label').val(taskData.labelId).change();
         $('#status').val(taskData.statusId).change();
         $('#assign').val(taskData.userId).change();

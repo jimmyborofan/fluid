@@ -1,4 +1,4 @@
-<div id="dialogDelete" title="Delete Task">
+ <div id="dialogDelete" title="Delete Task">
     <form>
         <fieldset>
             <label for="delTask">Are you Sure?</label>

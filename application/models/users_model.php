@@ -1,8 +1,8 @@
-    <?php
+<?php
 
     /**
      * Description of Users_Model
-     * 
+     *
      * A Model to allow the controllers to access Users and related data
      *
      * @author Jim Crawford
@@ -14,7 +14,7 @@
         }
 
         /**
-         * 
+         *
          * @param type $userID (OPTIONAL) if no USER ID is provided, ALL data is sent
          * @return ARRAY - aAN ARRAY containing data from the task, including assignee, status and labels
          */

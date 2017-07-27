@@ -29,18 +29,18 @@
         <link href="/css/style.css" rel="stylesheet" />
         <link href="/css/responsive.css" rel="stylesheet" />
         <script src="/js/custom.js" type="text/javascript"></script>
-        <!-- Data Tables js files, do not remove these, if you do, a lot of functions will break -->
-        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs/pdfmake-0.1.27/dt-1.10.15/af-2.2.0/b-1.3.1/b-colvis-1.3.1/b-html5-1.3.1/b-print-1.3.1/cr-1.3.3/r-2.1.1/rr-1.2.0/datatables.min.css"/>
-        <script src="/js/<?=$view;?>.js" type="text/javascript"></script>
+        <!-- Data Tables js files, do not remove these, if you do, a lot of functions will break
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs/pdfmake-0.1.27/dt-1.10.15/af-2.2.0/b-1.3.1/b-colvis-1.3.1/b-html5-1.3.1/b-print-1.3.1/cr-1.3.3/r-2.1.1/rr-1.2.0/datatables.min.css"/> -->
+        <script src="/js/<?= $view; ?>.js" type="text/javascript"></script>
         <script type="text/javascript" src="https://cdn.datatables.net/v/bs/pdfmake-0.1.27/dt-1.10.15/af-2.2.0/b-1.3.1/b-colvis-1.3.1/b-html5-1.3.1/b-print-1.3.1/cr-1.3.3/r-2.1.1/rr-1.2.0/datatables.min.js"></script>
     </head>
     <body>
-<div class="container">
-    <div class="row header">
-        <div class="col-sm-3">Fluid Example Framework Task</div>
-        <div class="col-sm-9"><h2><?= $title; ?></h2></div>
-    </div>
+        <div class="container">
+            <div class="row header">
+                <div class="col-sm-3"><a href="https://placeholder.com"><img src="http://via.placeholder.com/200x150"></a></div>
+                <div class="col-sm-9"><h2><?= $title; ?></h2></div>
+            </div>
         </div>
-    <div class="row">
-        <div class="leftBar col-sm-2">Written by Jim Crawford</div>
-        <div class="content col-sm-8">
+        <div class="row">
+            <div class="leftBar col-sm-2"></div>
+            <div class="content col-sm-8">

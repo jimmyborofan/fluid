@@ -7,3 +7,65 @@
         font-family : Tahoma, sans-serif
         
     }
+	
+	th, td {
+		padding: 5px;
+	}
+	
+	.taskRow {
+		
+	}
+	
+	.taskId {
+		
+	}
+	
+	.taskName {
+		
+	}
+	
+	.taskDetails {
+
+	}
+	.taskAssignee {
+		
+	}
+	.taskStatus {
+    font-size: 10px;
+    font-family: raleway;
+    height: 100%;
+    width: 100%;
+    min-width: 70px;
+    min-height: 20px;
+    text-align: center;
+}
+	.taskEdit {
+		
+	}
+	
+	
+	.taskDelete {
+		
+	}
+	
+	.statusShw, .labelShw {
+		max-width: 130px;
+		text-align: center;
+	}
+	
+	.footerText {
+		
+		text-align: center;
+		font-size: 10px;
+		padding-top: 30px;
+	}
+	
+	.pageDivider{
+		padding-top: 20px;
+		padding-bottom : 30px;
+	}
+	
+	.pageDivier hr {
+		width: 75%;
+		color: #aaa;
+	}

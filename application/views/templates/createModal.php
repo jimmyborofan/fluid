@@ -13,10 +13,10 @@
             <select name="create_assign" id="create_assign">
                 <option value="1">Select...</option>
                 <?php
-                foreach ($form['users'] as $user) {
-                    echo "<option value=\"" . $user['userId']."\">"
-                            . "".$user['username'] . "</option>";
-                }
+                    foreach ($form['users'] as $user) {
+                        echo "<option value=\"" . $user['userId'] . "\">"
+                        . "" . $user['username'] . "</option>";
+                    }
                 ?>
             </select>
             <br />
@@ -24,10 +24,10 @@
             <select name="create_status" id="create_status">
                 <option value="1">Select...</option>
                 <?php
-                foreach ($form['status'] as $status) {
-                    echo "<option value=\"" . $status['statusId'] . "\">"
-                            . "" . $status['name'] . "</option>";
-                }
+                    foreach ($form['status'] as $status) {
+                        echo "<option value=\"" . $status['statusId'] . "\">"
+                        . "" . $status['name'] . "</option>";
+                    }
                 ?>
             </select>
             <br />
@@ -35,10 +35,10 @@
             <select name="create_label" id="create_label">
                 <option value="1">Select...</option>
                 <?php
-                foreach ($form['labels'] as $lbl) {
-                    echo "<option value=\"" . $lbl['labelId']
-                            ."\">" . $lbl['name'] . "</option>";
-                }
+                    foreach ($form['labels'] as $lbl) {
+                        echo "<option value=\"" . $lbl['labelId']
+                        . "\">" . $lbl['name'] . "</option>";
+                    }
                 ?>
             </select>
             <br />
